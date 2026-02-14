@@ -1,0 +1,85 @@
+.each-card {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 16px;
+    width: 1600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-left-part {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    & img {
+        width: 56px;
+        height: 56px;
+        filter: invert(100%);
+        margin-left: 60px;
+    }
+
+    & h2 {
+        color: white;
+        font-family: 'Sora variable';
+        margin-left: 20px;
+    }
+}
+
+.card-right-part {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    & p {
+        color: white;
+        font-family: 'Sora variable';
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+
+.level-indicator-beginner {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 4px;
+    height: 40px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora variable', sans-serif;
+    background-color: rgb(218, 214, 0);
+}
+
+.level-indicator-intermediate {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora variable', sans-serif;
+    background-color: rgb(216, 97, 0);
+}
+
+.level-indicator-advanced {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora variable', sans-serif;
+    background-color: rgb(173, 0, 0);
+}
+
+.loading-state {
+    font-size: 60px;
+    font-family: 'Sora variable', sans-serif;
+}

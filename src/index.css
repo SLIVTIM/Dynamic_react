@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#root {
+    margin-top: 100px;
+    gap: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(63, 63, 63);
+}
