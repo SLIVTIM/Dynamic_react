@@ -3,7 +3,7 @@
     flex-direction: row;
     background-color: black;
     border-radius: 16px;
-    width: 1600px;
+    width: 85%;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -43,6 +43,7 @@
 .level-indicator-beginner {
     margin-left: 50px;
     margin-top: 30px;
+    margin-right: 20px;
     border-radius: 4px;
     height: 40px;
     width: 110px;
@@ -56,6 +57,7 @@
 .level-indicator-intermediate {
     margin-left: 50px;
     margin-top: 30px;
+    margin-right: 20px;
     border-radius: 4px;
     height: 40px;
     width: 150px;
@@ -69,6 +71,7 @@
 .level-indicator-advanced {
     margin-left: 50px;
     margin-top: 30px;
+    margin-right: 20px;
     border-radius: 4px;
     height: 40px;
     width: 120px;
